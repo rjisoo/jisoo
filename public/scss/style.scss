@@ -1,0 +1,36 @@
+@import "./heading.scss";
+@import "./home.scss";
+@import "./experience.scss";
+@import "./skills.scss";
+@import "./contacts.scss";
+@import "./footer.scss";
+@import "./typewriter.scss";
+@import "./projects.scss";
+@import "./navbar.scss";
+
+div {
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s;  
+}
+
+body {
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main {
+  background-color: #ccc;  
+}
+
+.background-white {
+    background-color: #ffffff !important;
+}
+
+a {
+  text-decoration:none
+}

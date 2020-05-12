@@ -1,0 +1,108 @@
+@media(max-width:768px) {
+  .photo {
+    height: 100vh;
+    @media(max-width:420px) {
+      height: 91vh;
+    }
+    -webkit-background-size: 45vh;
+    -moz-background-size: 45vh;
+    -o-background-size: 45vh;
+    background-size: 45vh;
+    background-image: url('/image/profilephoto.png');
+    background-position: 50% bottom;
+    background-repeat: no-repeat;
+  }
+
+  .typewriter {
+    top: 17vh;
+    text-align: center;
+  }
+
+  .typewriter>h2 {
+    font-size: 8vw;
+  }
+
+  .typewriter span {
+    color: #555;
+    font-size: 6vw;
+  }
+
+  .typewriter .iam {
+    display: none;
+  }
+
+}
+
+@media(min-width:768px) {
+  .photo {
+    height: 100vh;    
+    background-size: 400px;
+    background-image: url('/image/profilephoto.png');
+    background-position: 10vw bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .typewriter {
+    padding-left: 2vw;
+    top: 30vh;
+    text-align: left;
+  }
+  
+  .typewriter>h2 {
+    font-size: 4.5vw;
+  }
+
+  .typewriter>span {
+    color: #555;
+    font-size: 3vw;
+  }
+
+  .typewriter .iam {
+    display: initial;
+  }
+}
+
+@media(min-width:1100px) {
+  .photo {
+    background-size: 400px;
+    background-image: url('/image/profilephoto.png');
+    background-position: 10vw bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .typewriter {
+    top: 30vh;
+    text-align: left;
+  }
+
+  .typewriter>h2 {
+    font-size: 4em;
+  }
+
+  .typewriter>span {
+    color: #555;
+    font-size: 3em;
+  }
+
+  .typewriter .iam {
+    display: initial;
+  }
+}
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

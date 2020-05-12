@@ -1,0 +1,42 @@
+.heading {
+  margin: 20px 20px 10px 20px; }
+  @media (max-width: 420px) {
+    .heading {
+      padding: 50px 20px 0px 20px;
+      margin: 0 20px; } }
+  @media (min-width: 420px) {
+    .heading {
+      padding: 25px 40px; } }
+  @media (min-width: 1200px) {
+    .heading {
+      padding: 30px 80px; } }
+
+.section-heading {
+  font-size: 3em; }
+  @media (max-width: 768px) {
+    .section-heading {
+      font-size: 2.5em; } }
+  @media (max-width: 420px) {
+    .section-heading {
+      font-size: 2em; } }
+
+.section-subheading {
+  color: #777;
+  font-size: 1.7em; }
+  @media (max-width: 768px) {
+    .section-subheading {
+      font-size: 1.5em;
+      margin-top: 15px; } }
+  @media (max-width: 420px) {
+    .section-subheading {
+      font-size: 1.2em;
+      margin-top: 10px; } }
+
+.text-center > hr {
+  margin: 35px 5%;
+  border-color: #fff;
+  opacity: 0.8; }
+
+.background-white .text-center > hr {
+  border-color: #727878;
+  opacity: 0.3; }
